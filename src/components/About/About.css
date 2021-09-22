@@ -1,0 +1,118 @@
+.aboutContainer {
+    width: 100%;
+    min-height: 90vh;
+    background-color: #282c32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.movieCard{
+   background-color: #ccc;
+   width: 70%;
+   height: 30rem;
+   border-radius: 10px;
+}
+.moviePoster > img{
+    width: 40%;
+    height: 30rem;
+    float: left;
+    margin-right: 0.9rem;
+    border-radius: 8px 0 0 8px;
+}
+.movieContent {
+    width: 100%;
+    padding: 0.8 1rem;
+}
+.movieContentTitle{
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    padding: 1rem;
+}
+.movieYear {
+    letter-spacing: 1.2px;
+    padding:  1.1rem;
+    font-size: 2.1rem;
+}
+.movieContentView {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    padding: 1rem;
+
+}
+.movieRating{
+    font-size: 1.8rem;
+    line-height: 2rem;
+    padding: 1rem;
+}
+@media (max-width:770px) {
+    .movieCard{
+        background-color: #ccc;
+        width: 70%;
+        height: 30rem;
+        border-radius: 10px;
+     }
+     .movieContent {
+        width: 100%;
+        padding: 0.1rem;
+    }
+    .movieContentTitle{
+        text-transform: uppercase;
+        letter-spacing: 0.2px;
+        padding: 0.1rem;
+    }
+    .movieYear {
+        letter-spacing: 0.2px;
+        padding:  0.5rem;
+        font-size: 1rem;
+    }
+    .movieContentView {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+        padding: 0.5rem;
+    }
+    .movieRating{
+        font-size: 1rem;
+        line-height: 2rem;
+        padding: 0.5rem;
+    }
+}
+@media (max-width:370px) {
+    .movieContentView {
+        font-size: 0.8rem;
+        line-height: 1rem;
+        padding: 0.5rem;
+    }
+}
+@media (min-width:960px) {
+    .movieCard{
+        background-color: #ccc;
+        width: 70%;
+        height: 30rem;
+        border-radius: 10px;
+     }
+     .movieContent {
+        width: 100%;
+        padding: 0.1rem;
+    }
+    .movieContentTitle{
+        text-transform: uppercase;
+        letter-spacing: 0.2px;
+        padding: 0.1rem;
+    }
+    .movieYear {
+        letter-spacing: 2px;
+        padding:  0.5rem;
+        font-size: 1.5rem;
+    }
+    .movieContentView {
+        font-size: 1.5em;
+        line-height: 1.7rem;
+        padding: 0.6rem;
+    }
+    .movieRating{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        padding: 0.5rem;
+    }
+}

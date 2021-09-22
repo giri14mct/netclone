@@ -21,7 +21,7 @@
     transform: scale(1.1);
 
 }
-@media screen and (min-width: 200px) {
+@media screen and (max-width: 200px) {
   .homePoster > img {
     width: 100px;
     height: 200px;

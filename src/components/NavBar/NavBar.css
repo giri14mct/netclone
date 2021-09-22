@@ -133,8 +133,8 @@ nav {
   }
   @media screen and (max-width: 200px) {
     .navBarLogo >img {
-      width: 45%;
-      height: 45px;
+      width: 35%;
+      height: 35px;
     }
 
   }

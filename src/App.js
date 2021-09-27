@@ -9,7 +9,7 @@ import About from './components/About/About'
 
 export const movieContext = createContext();
 
-const App = () => {
+export const App = () => {
 
   //For Context Purpose
 
@@ -38,4 +38,3 @@ const App = () => {
 
   )
 }
-export default App
